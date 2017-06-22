@@ -13,13 +13,13 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-	Timesheet timesheet = new Timesheet();
+        Timesheet timesheet = new Timesheet();
 
-	// TODO: Change these submits to trigger on Tab key instead of Enter key (for MacBook Pro Tab8 support)
+        // TODO: Change these submits to trigger on Tab key instead of Enter key (for MacBook Pro Tab8 support)
 
-	log("Monday hours: ");
-	timesheet.setMondayHours(scanner.nextInt());
-	log("Tuesday hours: ");
+        log("Monday hours: ");
+        timesheet.setMondayHours(scanner.nextInt());
+        log("Tuesday hours: ");
         timesheet.setTuesdayHours(scanner.nextInt());
         log("Wednesday hours: ");
         timesheet.setWednesdayHours(scanner.nextInt());
